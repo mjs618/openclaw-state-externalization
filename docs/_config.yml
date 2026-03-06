@@ -1,0 +1,47 @@
+# GitHub Pages 配置
+theme: jekyll-theme-cayman
+
+title: OpenClaw State Externalization
+description: 跨天·跨 Session·跨 Agent 的长期任务状态管理系统
+
+# 导航
+nav:
+  - title: 首页
+    url: /
+  - title: 快速开始
+    url: /getting-started
+  - title: 核心概念
+    url: /concepts
+  - title: 使用指南
+    url: /usage-guide
+  - title: 示例
+    url: /examples
+  - title: API 参考
+    url: /api-reference
+  - title: FAQ
+    url: /faq
+
+# 页脚
+footer:
+  links:
+    - label: GitHub
+      url: https://github.com/mjs618/openclaw-state-externalization
+    - label: Issue
+      url: https://github.com/mjs618/openclaw-state-externalization/issues
+
+# 插件
+plugins:
+  - jekyll-relative-links
+
+# 相对链接
+relative_links:
+  enabled: true
+  collections: true
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
