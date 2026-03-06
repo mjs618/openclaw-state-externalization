@@ -1,0 +1,34 @@
+{
+  "name": "openclaw-state-externalization",
+  "version": "2.0.0",
+  "description": "跨天·跨Session·跨Agent的长期任务状态管理系统",
+  "main": "index.js",
+  "scripts": {
+    "init": "./templates/state-externalization/init-state.sh",
+    "validate": "./scripts/state-tools/validate.sh",
+    "stats": "./scripts/state-tools/stats.sh",
+    "visualize": "./scripts/state-tools/visualize.py --format console",
+    "visualize:html": "./scripts/state-tools/visualize.py --format html",
+    "commit": "./scripts/state-tools/quick-commit.sh",
+    "docs:install": "cd docs && bundle install",
+    "docs:serve": "cd docs && bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjs618/openclaw-state-externalization.git"
+  },
+  "keywords": [
+    "openclaw",
+    "ai-agent",
+    "state-management",
+    "session-management",
+    "persistence",
+    "collaboration"
+  ],
+  "author": "OpenClaw State Externalization Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjs618/openclaw-state-externalization/issues"
+  },
+  "homepage": "https://mjs618.github.io/openclaw-state-externalization"
+}
