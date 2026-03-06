@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- 背景圆 -->
+  <circle cx="100" cy="100" r="90" fill="#667eea"/>
+  
+  <!-- 外圈 -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#764ba2" stroke-width="4"/>
+  
+  <!-- 存储图标 - 底部方块 -->
+  <rect x="55" y="110" width="90" height="50" rx="5" fill="#fff" opacity="0.9"/>
+  <rect x="60" y="115" width="80" height="8" rx="2" fill="#667eea"/>
+  <rect x="60" y="128" width="60" height="6" rx="2" fill="#764ba2" opacity="0.6"/>
+  <rect x="60" y="138" width="70" height="6" rx="2" fill="#764ba2" opacity="0.4"/>
+  
+  <!-- 上下文图标 - 顶部圆圈 -->
+  <circle cx="100" cy="70" r="35" fill="#fff" opacity="0.95"/>
+  <circle cx="100" cy="70" r="30" fill="none" stroke="#667eea" stroke-width="3"/>
+  
+  <!-- 连接箭头 -->
+  <path d="M100 105 L100 115" stroke="#764ba2" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="95,110 100,118 105,110" fill="#764ba2"/>
+  
+  <!-- 内部图标 - 大脑/记忆 -->
+  <circle cx="90" cy="65" r="4" fill="#667eea"/>
+  <circle cx="110" cy="65" r="4" fill="#667eea"/>
+  <circle cx="100" cy="78" r="4" fill="#764ba2"/>
+  <path d="M90 65 Q100 55 110 65" fill="none" stroke="#667eea" stroke-width="2"/>
+</svg>
