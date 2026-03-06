@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "schema": "openclaw-state-manifest",
+  "project": {
+    "name": "状态外化演示",
+    "description": "演示 OpenClaw 长期任务状态管理方案",
+    "createdAt": "2026-03-06T06:13:07Z",
+    "updatedAt": "2026-03-06T06:13:07Z"
+  },
+  "current": {
+    "activeTask": null,
+    "phase": "init",
+    "status": "ready",
+    "lastSession": null,
+    "totalSessions": 0
+  },
+  "tasks": [],
+  "config": {
+    "autoCommit": false,
+    "sessionLogging": true,
+    "maxSessionHistory": 50
+  }
+}

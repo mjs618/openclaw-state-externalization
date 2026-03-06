@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "schema": "openclaw-state-manifest",
+  "project": {
+    "name": "{{PROJECT_NAME}}",
+    "description": "{{PROJECT_DESCRIPTION}}",
+    "createdAt": "{{TIMESTAMP}}",
+    "updatedAt": "{{TIMESTAMP}}"
+  },
+  "current": {
+    "activeTask": null,
+    "phase": "init",
+    "status": "ready",
+    "lastSession": null,
+    "totalSessions": 0
+  },
+  "tasks": [],
+  "config": {
+    "autoCommit": false,
+    "sessionLogging": true,
+    "maxSessionHistory": 50
+  }
+}
